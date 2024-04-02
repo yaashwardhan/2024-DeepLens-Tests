@@ -32,12 +32,9 @@ Summary:
 *  **TEST I:** Multi-Label Classification 
 
   
-| Approaches | Val AUC | Confusion Matrix and ROC plot |
-
+| Approaches | Val AUC  | Confusion Matrix and ROC plot  |
 |---|---|---|
-
 |*`Vision Transformer (Custom)`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/2024-DeepLense-Tests/blob/main/Common%20Test%20I.%20Multi-Class%20Classification/Method1_ViT.ipynb)<br>This approach involves<br>a self-attention Vision Transformer<br>whoes architecture implemented from<br>scratch and then imagenet<br>pretrained weights are applied to it.<br>The model processes image patches<br>through 12 transformer blocks with<br>multi-head self-attention and MLP,<br>then outputs class probabilities. |0.90|<img src="Common Test I. Multi-Class Classification/results/Custom_ViT.png" width="600">
-
 |*`ResNet50 Transfer Learning`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/2024-DeepLense-Tests/blob/main/Common%20Test%20I.%20Multi-Class%20Classification/Method2_ResNet50.ipynb)<br>Utilizing ResNet-50 for transfer<br>learning, we remove its classification<br>head, apply batch normalization,<br>dropout, and a dense<br>layer with softmax activation<br>for 3-class probability output.<br>This implementation is simplified<br>using existing libraries for<br>the model's architecture.|0.98| <img src="Common Test I. Multi-Class Classification/results/ResNet50_results.png" width="600">
 
 ---
@@ -47,9 +44,7 @@ Summary:
   
 
 | Approach | Val AUC | Confusion Matrix and ROC plot |
-
 |---|---|---|
-
 |*`Self-Attention-CNNs`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/2024-DeepLense-Tests/blob/main/Specific%20Test%20VI.%20SSL%20on%20Real%20Dataset/SSL_Contrastive_Rotation_and_Gaussian.ipynb)<br>A multimodal model using CNNs<br>and attention mechanisms to process<br>images and features.<br>The model combines the image and <br>feature branches, applies self<br>attention,and outputs a probability<br>through Dense layers. | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
 
   
