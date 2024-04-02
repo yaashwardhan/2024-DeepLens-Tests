@@ -43,9 +43,11 @@ Summary:
 
   
 
-| Approach | Val AUC | Confusion Matrix and ROC plot |
+| Approach (All in here: [.ipynb](https://github.com/yaashwardhan/2024-DeepLense-Tests/blob/main/Specific%20Test%20VI.%20SSL%20on%20Real%20Dataset/SSL_Contrastive_Rotation_and_Gaussian.ipynb)) | Val AUC | Confusion Matrix and ROC plot |
 |---|---|---|
-|*`Self-Attention-CNNs`*<br><br>Notebook: [.ipynb](https://github.com/yaashwardhan/2024-DeepLense-Tests/blob/main/Specific%20Test%20VI.%20SSL%20on%20Real%20Dataset/SSL_Contrastive_Rotation_and_Gaussian.ipynb)<br>A multimodal model using CNNs<br>and attention mechanisms to process<br>images and features.<br>The model combines the image and <br>feature branches, applies self<br>attention,and outputs a probability<br>through Dense layers. | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
+|*`ResNet50 Baseline (not SSL)`*<br><br><br>A multimodal model using CNNs<br>and attention mechanisms to process<br>images and features.<br>The model combines the image and <br>feature branches, applies self<br>attention,and outputs a probability<br>through Dense layers. | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
+|*`Self-Attention-CNNs`*<br><br><br>A multimodal model using CNNs<br>and attention mechanisms to process<br>images and features.<br>The model combines the image and <br>feature branches, applies self<br>attention,and outputs a probability<br>through Dense layers. | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
+|*`Self-Attention-CNNs`*<br><br><br>A multimodal model using CNNs<br>and attention mechanisms to process<br>images and features.<br>The model combines the image and <br>feature branches, applies self<br>attention,and outputs a probability<br>through Dense layers. | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
 
   
 
