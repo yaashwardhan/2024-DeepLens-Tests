@@ -1,4 +1,4 @@
-## GSoC 2024 Tests :mag: :white_check_mark:
+## GSoC 2024 Test Solutions :mag: :white_check_mark:
 
   ### Project: Learning Representation Through Self-Supervised Learning on Real Gravitational Lensing Images
 
