@@ -43,11 +43,11 @@ Summary:
 
   
 
-| Approach (All in here: [.ipynb](https://github.com/yaashwardhan/2024-DeepLense-Tests/blob/main/Specific%20Test%20VI.%20SSL%20on%20Real%20Dataset/SSL_Contrastive_Rotation_and_Gaussian.ipynb)) | Val AUC | Confusion Matrix and ROC plot |
+| Approach (All in here: [.ipynb](https://github.com/yaashwardhan/2024-DeepLense-Tests/blob/main/Specific%20Test%20VI.%20SSL%20on%20Real%20Dataset/SSL_Contrastive_Rotation_and_Gaussian.ipynb)) | Val AUC | ROC plot with AUC Value |
 |---|---|---|
-|*`ResNet50 Baseline (not SSL)`*<br><br><br>A Baseline Supervised method to test the effect of Self-Supervised Learning | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
-|*`SSL Contrastive with Rotation Pretext`*<br><br><br>Representations of random contrasting Rotations are learnt. | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
-|*`SSL Contrastive with Gaussian Noise Pretext`*<br><br><br>Representations of random contrasting Gaussian Noises are learnt. | 0.99 |<img src="Task2 - Lens Finding (0.99 AUC) (Self-Attention CNN)/lens_finding_results.png" width="600">
+|*`ResNet50 Baseline (not SSL)`*<br><br><br>A Baseline Supervised method to test the effect of Self-Supervised Learning | 0.74 |<img src="Specific Test VI. SSL on Real Dataset/results/Baseline.png" width="600">
+|*`SSL Contrastive with Rotation Pretext`*<br><br><br>Representations of random contrasting Rotations are learnt. | 0.78 |<img src="Specific Test VI. SSL on Real Dataset/results/Rotation.png" width="600">
+|*`SSL Contrastive with Gaussian Noise Pretext`*<br><br><br>Representations of random contrasting Gaussian Noises are learnt. | 0.84 |<img src="Specific Test VI. SSL on Real Dataset/results/Gaussian.png" width="600">
 
   
 
